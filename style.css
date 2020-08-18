@@ -13,7 +13,25 @@ header h1{
     font-weight:bold;
     color:#fcca46;
 }
-
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.resto-1{
+    background-color:#fcdfdb;
+}
+.resto-2{
+    background-color: #fff5fe;
+}
+.resto-3{
+    background-color: #f9f9f9;
+}
+.resto-4{
+    background-color: #fdfffd;
+}
+aside{
+    display: flex;
+}
 footer{
     display: flex;
     justify-content: space-between;
