@@ -15,22 +15,56 @@ header h1{
 }
 section{
     display: flex;
-    justify-content: space-around;
+    text-align:center;
+    margin:50px 0;
 }
 .resto-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color:#fcdfdb;
+    width:35%;
+    height:600px;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.9);
 }
+.fas{font-size:50px;}
 .resto-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #fff5fe;
+    width:35%;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.9);
 }
 .resto-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #f9f9f9;
+    width:35%;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.9);
 }
 .resto-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #fdfffd;
+    width:35%;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.9);
 }
 aside{
     display: flex;
+    margin-bottom: 40px;
+}
+aside h2{
+    background-color: #579c87;
+    padding:10px 40px;
+    border-radius: 20px;
+}
+aside h2 a{
+    color:#fcca46;
+    text-decoration:none;
 }
 footer{
     display: flex;
