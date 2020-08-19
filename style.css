@@ -4,6 +4,9 @@
 body{
     font-family: "Open sans", Georgia, serif;
 }
+a{
+    text-decoration:none;
+}
 header{
     display: flex;
     background-color: #579c87;
@@ -18,12 +21,14 @@ section{
     text-align:center;
     margin:50px 0;
 }
+.row-1 a, .row-2 a{
+    width: 35%;
+}
 .resto-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color:#fcdfdb;
-    width:35%;
     height:600px;
     box-shadow: 0 0 10px rgba(135, 135, 135, 0.9);
 }
@@ -32,8 +37,8 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height:600px;
     background-color: #fff5fe;
-    width:35%;
     box-shadow: 0 0 10px rgba(135, 135, 135, 0.9);
 }
 .resto-3{
@@ -41,7 +46,6 @@ section{
     flex-direction: column;
     justify-content: center;
     background-color: #f9f9f9;
-    width:35%;
     height: 600px;
     box-shadow: 0 0 10px rgba(135, 135, 135, 0.9);
 }
@@ -49,8 +53,8 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height:600px;
     background-color: #fdfffd;
-    width:35%;
     box-shadow: 0 0 10px rgba(135, 135, 135, 0.9);
 }
 aside{
